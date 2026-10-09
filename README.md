@@ -41,17 +41,11 @@ Lovie is signed and notarized by Apple, so it opens without a security warning.
 | Mac | Apple Silicon (M1 or newer) |
 | Network | Needed to sign in and for your agents to work |
 
-Some of Lovie's agents run on Node.js. If your Mac does not have it, Lovie downloads the official build from nodejs.org on first launch, checks it, and keeps it to itself. Nothing is installed system-wide.
-
 ## Updates
 
 Lovie keeps itself up to date. Each time it opens, it checks for a new version; when there is one, Lovie asks you to install it before you continue, then installs it and opens again within a moment. An app that is already open is never interrupted, and if your Mac is offline, Lovie opens as usual and checks again next time.
 
 Every update is signed by Lovie and verified on your Mac before it is installed.
-
-## About this repository
-
-This repository publishes Lovie for Mac: the signed disk images and the update feed the app reads. Each [release](https://github.com/lovieco/lovie-macos-releases/releases) carries its notes, its `.dmg` and the `appcast.xml` that tells installed copies about it. The source code is not here.
 
 ---
 
