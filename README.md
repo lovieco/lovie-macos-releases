@@ -49,19 +49,6 @@ Lovie keeps itself up to date. Each time it opens, it checks for a new version; 
 
 Every update is signed by Lovie and verified on your Mac before it is installed.
 
-## Verify a download
-
-Every build is signed with Lovie's Developer ID and notarized by Apple. To check an installed copy:
-
-```sh
-spctl --assess --verbose=2 /Applications/Lovie.app
-# /Applications/Lovie.app: accepted
-# source=Notarized Developer ID
-
-codesign --display --verbose=2 /Applications/Lovie.app 2>&1 | grep Authority
-# Authority=Developer ID Application: Lovie Technology Inc. (VV8PLY8A3T)
-```
-
 ## About this repository
 
 This repository publishes Lovie for Mac: the signed disk images and the update feed the app reads. Each [release](https://github.com/lovieco/lovie-macos-releases/releases) carries its notes, its `.dmg` and the `appcast.xml` that tells installed copies about it. The source code is not here.
