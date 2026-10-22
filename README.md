@@ -15,7 +15,7 @@
 <p align="center">
   <a href="https://github.com/lovieco/lovie-macos-releases/releases/latest"><img alt="Latest release" src="https://img.shields.io/github/v/release/lovieco/lovie-macos-releases?label=release&color=031906"></a>
   <img alt="macOS 15 or later" src="https://img.shields.io/badge/macOS-15%2B-031906">
-  <img alt="Apple Silicon" src="https://img.shields.io/badge/Apple%20Silicon-arm64-031906">
+  <img alt="Apple Silicon and Intel" src="https://img.shields.io/badge/Mac-Apple%20Silicon%20%7C%20Intel-031906">
   <img alt="Notarized by Apple" src="https://img.shields.io/badge/notarized-Apple-031906">
 </p>
 
@@ -38,7 +38,7 @@ Lovie is signed and notarized by Apple, so it opens without a security warning.
 | | |
 |---|---|
 | macOS | 15 Sequoia or later |
-| Mac | Apple Silicon (M1 or newer) |
+| Mac | Apple Silicon or Intel |
 | Network | Needed to sign in and for your agents to work |
 
 ## Updates
